@@ -7,7 +7,7 @@ object[key] = value;
 return object
 }
 function deleteFromObjectByKey(object, key) {
-var kit = Object.assign({}, object,{key});
+var kit = Object.assign({}, object,);
 delete object[key];
 return kit
 }
